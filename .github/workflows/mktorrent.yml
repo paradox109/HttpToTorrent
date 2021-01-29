@@ -1,4 +1,4 @@
-name: Create torrent using mktorrent
+name: "Cit0day_Premium"
 on:
   push:
     paths:
@@ -6,9 +6,9 @@ on:
       
 env:
   name: "Firefox Setup 84.0.2"
-  comment: "Firefox Setup 84.0.2 by torrent-webseed-creator"
-  url: "https://cdn.stubdownloader.services.mozilla.com/builds/firefox-latest-ssl/en-US/win64/d64376e289766ce61f2d99579fb331af3b53619bcbff418513c944eb3aab6fa5/Firefox%20Setup%2084.0.2.exe"
-  file_name: "Firefox Setup 84.0.2.exe"
+  comment: "DatabaseCit0day_Premium"
+  url: "https://cdn-110.anonfiles.com/x7oaydr9pf/49ea9fa7-1611875628/Cit0day%20Premium.tar.gz"
+  file_name: "Cit0day_Premium"
   piece_size: 19 # Check the README.md for recommended piece size
       
 jobs:

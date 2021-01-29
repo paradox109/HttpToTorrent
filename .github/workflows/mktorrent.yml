@@ -7,7 +7,7 @@ on:
 env:
   name: "DatabaseCit0day_Premium"
   comment: "DatabaseCit0day_Premium"
-  url: "https://cdn-112.anonfiles.com/x7oaydr9pf/5f3e350e-1611879755/Cit0day%20Premium.tar.gz"
+  url: "https://cdn-117.anonfiles.com/x7oaydr9pf/d9d86504-1611913980/Cit0day%20Premium.tar.gz"
   file_name: "Cit0day_Premium"
   piece_size: 22 # Check the README.md for recommended piece size
       

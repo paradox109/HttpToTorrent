@@ -5,10 +5,10 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "fdns_ns"
-  comment: "fdns_ns"
+  name: "2021-01-29-1611879127-fdns_ns.json.gz"
+  comment: "2021-01-29-1611879127-fdns_ns.json.gz"
   url: "https://opendata.rapid7.com/sonar.fdns_v2/2021-01-29-1611879127-fdns_ns.json.gz"
-  file_name: "Cit0day_Premium"
+  file_name: "2021-01-29-1611879127-fdns_ns.json.gz"
   piece_size: 22 # Check the README.md for recommended piece size
       
 jobs:

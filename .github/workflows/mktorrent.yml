@@ -5,11 +5,11 @@ on:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "CompilationOfManyBreaches.7z"
-  comment: "CompilationOfManyBreaches.7z"
-  url: "srv-store4.gofile.io/download/Ht5ZSc/CompilationOfManyBreaches.7z/?"
-  file_name: "CompilationOfManyBreaches.7z"
-  piece_size: 24 # Check the README.md for recommended piece size
+  name: "F B  DB  in csvs"
+  comment: "F B  DB  in csvs"
+  url: "https://ca-east-1.ufile.io/get/n96ftx6w?token=ZjEwZWIwMmNkNWNlNWFhYzU0Y2IxNTNiNDliMGJjMTViNWMyMDAwOGE4MTVkNjVmMTExMzFiZDIxNTIyOTZkNDA5MjhlYzMxNjg5N2Q5NmEyYmY1Y2ZiNzQ3YTM4MWI4OGI0OGRiNGRkMTlmMDA2MjRlN2E5Yzg2ZjNiYmM0ZTAzbjN4bE94TFA0VUs0TzVYbHpMbjluMXlkNE9IdkJtV2lNWkdjdHhTdnJia044a2didmpCa3BsbElhRmJZMEFLQUJxL21CZXAwYW1MdVVkVTVmUW1EK2dWQ1ByK05EamNNVzAzQnFRcUc3UkNzVXdIRTZEQ1BNMkZxSWk4ZDQyenlDeERRZ2h4ZHR6OU56OXUyN2RaNG9jOVpxck5CUWswRmRnTjk2bGFQdTgrd2pYVWFIdXV3UHpMNVo0THFiN2czNXhOdm1nSlgrbk43WGNqRkI3aUlaUzYvQkNvRVVoWFFzWFQxUXRpMDUwcVJiT0dTajl0NDNuci8xQXRYcWJz"
+  file_name: "FB_DB_in_csvs"
+  piece_size: 20 # Check the README.md for recommended piece size
       
 jobs:
   create:
@@ -17,10 +17,9 @@ jobs:
     steps:
       - name: Install mktorrent
         run: sudo apt-get install mktorrent
-      - name: Open Site
-        run: wget -nv -O "$file_name" "https://gofile.io/d/Ht5ZSc"
+
       - name: Download file
-        run: wget -nv -O "$file_name" "srv-store4.gofile.io/download/Ht5ZSc/CompilationOfManyBreaches.7z/?"
+        run: wget -nv -O "$file_name" "$url"
         
       - name: Create torrent using mktorrent
         run: mktorrent -c "$comment" -l $piece_size -o "${name}.torrent" -w "$url" "$file_name"

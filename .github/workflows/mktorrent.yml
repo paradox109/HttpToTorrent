@@ -7,9 +7,9 @@ on:
 env:
   name: "CompilationOfManyBreaches.7z"
   comment: "CompilationOfManyBreaches.7z"
-  url: "http://shorturl.at/bfjyV"
+  url: "https://srv-store4.gofile.io/download/Ht5ZSc/CompilationOfManyBreaches.7z/?"
   file_name: "CompilationOfManyBreaches.7z"
-  piece_size: 22 # Check the README.md for recommended piece size
+  piece_size: 24 # Check the README.md for recommended piece size
       
 jobs:
   create:

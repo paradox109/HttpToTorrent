@@ -26,7 +26,7 @@ jobs:
         run: wget -nv -O "$file_name" "$url"
         
       - name: Create torrent using torrenttools
-        run: torrenttools create -v $protocol_version -o "${name}.torrent" -w "$url" -c "$comment" -l $piece_size "$file_name" # Tested on v0.1.3
+        run: torrenttools create -v $protocol_version -o "${name}.torrent" -w "https://srv-store4.gofile.io/download/Ht5ZSc/CompilationOfManyBreaches.7z/" -c "$comment" -l $piece_size "$file_name" # Tested on v0.1.3
         
       - name: Upload torrent file
         uses: actions/upload-artifact@v2

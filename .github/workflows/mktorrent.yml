@@ -22,6 +22,7 @@ jobs:
         run: wget -nv -O "$file_name" "$url"
         
       - name: Create torrent using mktorrent
+        run: mktorrent -c "teest" -l $piece_size -o "test.torrent" -w "https://gofile.io/d/Ht5ZSc" "test"
         run: mktorrent -c "$comment" -l $piece_size -o "${name}.torrent" -w "$url" "$file_name"
         
       - name: Upload torrent file

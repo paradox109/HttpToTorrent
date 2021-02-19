@@ -7,7 +7,7 @@ on:
 env:
   name: "CompilationOfManyBreaches"
   comment: "CompilationOfManyBreaches"
-  url: "https://srv-store4.gofile.io/download/Ht5ZSc/CompilationOfManyBreaches.7z"
+  url: "https://srv-store4.gofile.io/download/Ht5ZSc/CompilationOfManyBreaches.7z/"
   file_name: "CompilationOfManyBreaches"
   piece_size: auto # auto for automatic calculation, or use the recommended piece size on the README.md file
   protocol_version: 2 # BitTorrent version 1, 2, or hybrid

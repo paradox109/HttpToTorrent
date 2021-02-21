@@ -1,14 +1,14 @@
-name: "personalLeakCol3.zip"
+name: "personalLeakCol3part2.zip"
 on:
   push:
     paths:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "personalLeakCol3"
-  comment: "personalLeakCol3"
-  url: "https://cdn-116.anonfiles.com/R1J1QdKfp1/53134153-1613917124/Part%201.zip"
-  file_name: "personalLeakCol3"
+  name: "personalLeakCol3part2"
+  comment: "personalLeakCol3part2"
+  url: "https://cdn-142.anonfiles.com/pey104L3p8/afb973b0-1613917129/Part%202.zip"
+  file_name: "personalLeakCol3part2"
   piece_size: 22 # Check the README.md for recommended piece size
       
 jobs:

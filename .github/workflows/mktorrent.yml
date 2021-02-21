@@ -1,15 +1,15 @@
-name: "CompilationOfManyBreaches.7z"
+name: "personalLeakCol3.zip"
 on:
   push:
     paths:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "F B  DB  in csvs"
-  comment: "F B  DB  in csvs"
-  url: "https://ca-east-1.ufile.io/get/n96ftx6w?token=ZjEwZWIwMmNkNWNlNWFhYzU0Y2IxNTNiNDliMGJjMTViNWMyMDAwOGE4MTVkNjVmMTExMzFiZDIxNTIyOTZkNDA5MjhlYzMxNjg5N2Q5NmEyYmY1Y2ZiNzQ3YTM4MWI4OGI0OGRiNGRkMTlmMDA2MjRlN2E5Yzg2ZjNiYmM0ZTAzbjN4bE94TFA0VUs0TzVYbHpMbjluMXlkNE9IdkJtV2lNWkdjdHhTdnJia044a2didmpCa3BsbElhRmJZMEFLQUJxL21CZXAwYW1MdVVkVTVmUW1EK2dWQ1ByK05EamNNVzAzQnFRcUc3UkNzVXdIRTZEQ1BNMkZxSWk4ZDQyenlDeERRZ2h4ZHR6OU56OXUyN2RaNG9jOVpxck5CUWswRmRnTjk2bGFQdTgrd2pYVWFIdXV3UHpMNVo0THFiN2czNXhOdm1nSlgrbk43WGNqRkI3aUlaUzYvQkNvRVVoWFFzWFQxUXRpMDUwcVJiT0dTajl0NDNuci8xQXRYcWJz"
-  file_name: "FB_DB_in_csvs"
-  piece_size: 20 # Check the README.md for recommended piece size
+  name: "personalLeakCol3"
+  comment: "personalLeakCol3"
+  url: "https://cdn-116.anonfiles.com/R1J1QdKfp1/53134153-1613917124/Part%201.zip"
+  file_name: "personalLeakCol3"
+  piece_size: 22 # Check the README.md for recommended piece size
       
 jobs:
   create:

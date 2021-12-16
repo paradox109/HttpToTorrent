@@ -5,10 +5,10 @@ on:
       - ".github/workflows/py3createtorrent.yml"
       
 env:
-  name: "CompilationOfManyBreaches.7z"
-  comment: "CompilationOfManyBreaches.7z"
-  url: "https://bit.ly/3bkDg8x"
-  file_name: "CompilationOfManyBreaches.7z"
+  name: "final.mp4"
+  comment: "final.mp4"
+  url: "https://b2.twitcharchives.com/file/twitch-archives/44804666541/final.mp4"
+  file_name: "final.mp4"
   piece_size: 24 # 0 for automatic calculation, or use the recommended piece size on the README.md file
       
 jobs:

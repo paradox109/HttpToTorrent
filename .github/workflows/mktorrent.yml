@@ -1,14 +1,14 @@
-name: "final.mp4"
+name: "2022_40_Dumps_RU_BE.7z"
 on:
   push:
     paths:
       - ".github/workflows/mktorrent.yml"
       
 env:
-  name: "final"
-  comment: "final"
-  url: "https://b2.twitcharchives.com/file/twitch-archives/44804666541/final.mp4"
-  file_name: "final"
+  name: "2022_40_Dumps_RU_BE"
+  comment: "2022_40_Dumps_RU_BE"
+  url: "https://store2.gofile.io/download/02b9f05a-a00d-4127-84dc-6fa527c924af/Old.7z"
+  file_name: "2022_40_Dumps_RU_BE"
   piece_size: 24 # Check the README.md for recommended piece size
       
 jobs:
